@@ -29,9 +29,9 @@ def can_be_created_in_a_block(args = {title: "Home Alone", release_date: 1990})
   # release_date == 1990
 
   Movie.create do |m|
-    title  = :title,
-    release_date = :release_date,
-    director: "George Roy Hill",
+    title  = :title
+    release_date = :release_date
+    director = :director
     lead: "Paul Newman",
     in_theaters: false
   end
