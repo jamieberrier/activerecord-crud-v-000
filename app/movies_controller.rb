@@ -32,7 +32,7 @@ def can_be_created_in_a_block(args = {title: "Home Alone", release_date: 1990})
     title  = :title
     release_date = :release_date
     director = :director
-    lead: "Paul Newman",
+    lead = :lead
     in_theaters: false
   end
 end
