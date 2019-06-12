@@ -33,7 +33,7 @@ def can_be_created_in_a_block(args = {title: "Home Alone", release_date: 1990})
     release_date = :release_date
     director = :director
     lead = :lead
-    in_theaters: false
+    in_theaters = :in_theaters
   end
 end
 
